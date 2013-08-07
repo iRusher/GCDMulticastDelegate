@@ -24,6 +24,9 @@
 		2DC66C4117B251AD00F62870 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DC66C3F17B251AD00F62870 /* InfoPlist.strings */; };
 		2DC66C4417B251AD00F62870 /* GCDMulticastDelegateExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC66C4317B251AD00F62870 /* GCDMulticastDelegateExampleTests.m */; };
 		2DC66C5017B251D200F62870 /* GCDMulticastDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC66C4F17B251D200F62870 /* GCDMulticastDelegate.m */; };
+		2DC66C5317B2534200F62870 /* MessageHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC66C5217B2534100F62870 /* MessageHandler.m */; };
+		2DC66C5617B253C700F62870 /* RSHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC66C5517B253C700F62870 /* RSHistory.m */; };
+		2DC66C5917B253DE00F62870 /* RSChat.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC66C5817B253DE00F62870 /* RSChat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,12 @@
 		2DC66C4317B251AD00F62870 /* GCDMulticastDelegateExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDMulticastDelegateExampleTests.m; sourceTree = "<group>"; };
 		2DC66C4E17B251D200F62870 /* GCDMulticastDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDMulticastDelegate.h; sourceTree = "<group>"; };
 		2DC66C4F17B251D200F62870 /* GCDMulticastDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDMulticastDelegate.m; sourceTree = "<group>"; };
+		2DC66C5117B2534100F62870 /* MessageHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageHandler.h; sourceTree = "<group>"; };
+		2DC66C5217B2534100F62870 /* MessageHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageHandler.m; sourceTree = "<group>"; };
+		2DC66C5417B253C700F62870 /* RSHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSHistory.h; sourceTree = "<group>"; };
+		2DC66C5517B253C700F62870 /* RSHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSHistory.m; sourceTree = "<group>"; };
+		2DC66C5717B253DE00F62870 /* RSChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSChat.h; sourceTree = "<group>"; };
+		2DC66C5817B253DE00F62870 /* RSChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSChat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +135,12 @@
 				2DC66C2A17B251AD00F62870 /* MainStoryboard.storyboard */,
 				2DC66C2D17B251AD00F62870 /* RSViewController.h */,
 				2DC66C2E17B251AD00F62870 /* RSViewController.m */,
+				2DC66C5117B2534100F62870 /* MessageHandler.h */,
+				2DC66C5217B2534100F62870 /* MessageHandler.m */,
+				2DC66C5417B253C700F62870 /* RSHistory.h */,
+				2DC66C5517B253C700F62870 /* RSHistory.m */,
+				2DC66C5717B253DE00F62870 /* RSChat.h */,
+				2DC66C5817B253DE00F62870 /* RSChat.m */,
 				2DC66C1917B251AD00F62870 /* Supporting Files */,
 			);
 			path = GCDMulticastDelegateExample;
@@ -289,6 +304,9 @@
 				2DC66C2317B251AD00F62870 /* RSAppDelegate.m in Sources */,
 				2DC66C2F17B251AD00F62870 /* RSViewController.m in Sources */,
 				2DC66C5017B251D200F62870 /* GCDMulticastDelegate.m in Sources */,
+				2DC66C5317B2534200F62870 /* MessageHandler.m in Sources */,
+				2DC66C5617B253C700F62870 /* RSHistory.m in Sources */,
+				2DC66C5917B253DE00F62870 /* RSChat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,7 +368,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -381,7 +400,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -397,6 +417,7 @@
 		2DC66C4817B251AD00F62870 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GCDMulticastDelegateExample/GCDMulticastDelegateExample-Prefix.pch";
 				INFOPLIST_FILE = "GCDMulticastDelegateExample/GCDMulticastDelegateExample-Info.plist";
@@ -408,6 +429,7 @@
 		2DC66C4917B251AD00F62870 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GCDMulticastDelegateExample/GCDMulticastDelegateExample-Prefix.pch";
 				INFOPLIST_FILE = "GCDMulticastDelegateExample/GCDMulticastDelegateExample-Info.plist";
